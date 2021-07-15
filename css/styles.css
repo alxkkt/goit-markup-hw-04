@@ -135,22 +135,31 @@ img {
 	font-style: normal;
 }
 
-/* HERO SECTION */
+/* ============= HERO SECTION =============== */
 
 .hero-section {
-	background-color: var(--footer-color);
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1600px;
+	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../img/studio/hero-section-image.png);
+	background-color: #c4c4c4;
 	text-align: center;
 
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
 
+.title-container {
+	max-width: 696px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .title-sign {
 	margin-bottom: 30px;
-	margin-top: 0;
 
 	color: var(--prime-white-color);
-	background-color: var(--footer-color);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -190,7 +199,7 @@ img {
 	overflow: hidden;
 }
 
-/* ADVANTAGES */
+/*=============== ADVANTAGES ===============*/
 
 .advantages-list {
 	display: flex;
@@ -226,7 +235,7 @@ img {
 	margin: 0;
 }
 
-/* WHAT WE DO */
+/*================= WHAT WE DO ==================*/
 
 .section.example {
 	padding-top: 0;
@@ -238,7 +247,7 @@ img {
 	line-height: 1.16;
 	letter-spacing: 0.03em;
 	text-align: center;
-	margin: 0 0 50px 0;
+	margin-bottom: 50px;
 }
 
 .photo-samples {
@@ -255,7 +264,7 @@ img {
 	margin-top: 30px;
 }
 
-/* OUR TEAM */
+/*=================== OUR TEAM ======================*/
 
 .section.team {
 	background-color: var(--team-dscrp-color);
@@ -304,6 +313,27 @@ img {
 	text-align: center;
 }
 
+/*===================== OUR CUSTOMERS ========================*/
+
+.customers-list {
+	display: flex;
+	flex-wrap: wrap;
+
+	margin-top: -30px;
+	margin-left: -30px;
+}
+
+.customers-list-item {
+	margin-top: 30px;
+	margin-left: 30px;
+	flex-basis: calc(100% / 6 - 30px);
+	padding: 16px 32px;
+
+	border: 1px solid #afb1b8;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
 /* MENU / FILTER */
 
 .section.hero {
@@ -345,7 +375,7 @@ img {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* FEATURES */
+/*============================= FEATURES ==========================*/
 
 .features {
 	display: flex;
@@ -387,7 +417,7 @@ img {
 	margin-top: 4px;
 }
 
-/* FOOTER */
+/*================== FOOTER ===================*/
 
 .footer {
 	background-color: var(--footer-color);
